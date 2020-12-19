@@ -1,0 +1,66 @@
+body {
+  background-color: #161616;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #161616;
+}
+
+nav p {
+  font-family: arial;
+  color: white;
+  font-size: 22px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px 0px 470px;
+}
+nav ul {
+  float: left;
+  /* padding:0px 650px ;this pushes the list to the center of the page */
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  font-size: 15px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li ul li {
+  width: 90px;
+  border-radius: 4px;
+}
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+nav ul li ul li a:hover {
+  background-color: #212121;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+p:hover {
+  cursor: pointer;
+  color: gold;
+}
